@@ -1,0 +1,41 @@
+ /*
+ * Public - A keyword of the java language that indicates that the element that follows should be made availiable to other java elements.
+ * In this case,  what follows is a class named HelloApp. As as result, this keyword indicates that the HelloApp class is a public class,
+ * which means other classes can use it. 
+*/
+
+ /*
+ * Class - Another Java keyword that indicates that the element being defined is a class. All java programs are made up of one or more
+ * classes. A class definition contains code that defines the behavior of the objects created and used by the program. Most real world
+ * programs consist of multiple classes.
+*/
+
+ /*
+ * HelloApp -  An identifier that provides the name for the clas being defined. Whereas keywords, such as public and class, are words
+ * that are define by the java programming language, identifier are words that you create to provide names for various elements. In this
+ * case, the identifier HelloApp provides a name for the public class being defined here.
+*/
+
+ /* 
+ * Void - In Java, a method is a unit of code that can calculate and return a value. For example, you could create a method that 
+ * that calculates a sales total. The the sales total would be the return value of the method. If a method doesn't need to return,
+ * you must use the void keyword to indicate that no value is returned. Because java requires that the main method not return a value
+ * you must specify void when you declare the main method.
+*/
+
+ /*
+ * Main - The identifier that provides the name for this method. Java requires that this method be named main. Besides the main method
+ * you can create additional methods with whatever names you want to use. 
+*/
+
+ /*
+ * (String[] args) - Called a parameter list, used to pass data to a method.
+*/
+
+public class HelloApp
+{
+  public static void main(String[] args)
+  {
+      System.out.println("Hello, World!");
+  }
+}
